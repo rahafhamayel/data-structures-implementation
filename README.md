@@ -1,6 +1,6 @@
 # data-structures-implementation
 Implementations of basic data structures using java
-📅 Day 1 + Day 2  – Completed Structures
+📅 Day 1 + Day 2 + Day 3  – Completed Structures
 
 ✅ Implemented and tested:
 
@@ -12,6 +12,9 @@ Implementations of basic data structures using java
 - [x] Queue using Linked List  
 - [x] Doubly Linked List  
 - [x] Circular Linked List
+- [x] Binary Tree  
+- [x] Binary Search Tree  
+- [x] Tree Traversal Algorithms (Inorder, Preorder, Postorder)
 
 All files include a `main()` method for testing and are organized into appropriate folders.
 
@@ -33,6 +36,14 @@ The project is organized by data structure category, each placed in a separate f
   - `QueueUsingArray`: Circular array-based queue with front/rear tracking.
   - `QueueUsingLinkedList`: Queue with dynamic memory using a linked list.
 
+### **`trees/`**
+Contains tree-related implementations including:
+- `BinaryTree` and `BinarySearchTree`: Node-based structures for hierarchical data.
+- Traversal algorithms:
+  - `inorder`: Left → Root → Right  
+  - `preorder`: Root → Left → Right  
+  - `postorder`: Left → Right → Root  
+Each traversal prints the tree in a different visiting order.
 Each `.java` file:
 - Has a standalone `main()` method for testing.
 - Includes inline comments for clarity.
