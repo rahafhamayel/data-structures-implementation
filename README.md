@@ -15,6 +15,11 @@ Implementations of basic data structures using java
 - [x] Binary Tree  
 - [x] Binary Search Tree  
 - [x] Tree Traversal Algorithms (Inorder, Preorder, Postorder)
+- [x] AVL Tree
+- [x] Min Heap
+- [x] Max Heap
+- [x] Priority Queue using Heap
+
 
 All files include a `main()` method for testing and are organized into appropriate folders.
 
@@ -48,5 +53,12 @@ Each `.java` file:
 - Has a standalone `main()` method for testing.
 - Includes inline comments for clarity.
 - Is written for educational readability, not just performance.
+-AVLTree.java: Implements a self-balancing Binary Search Tree using AVL rotations (left, right, LR, RL). Supports insertion, height tracking, and in-order traversal.
 
-Future folders (trees, heaps, graphs, tries, etc.) will follow the same structure for consistency across the project.
+### **`heaps/`**
+MinHeap.java: Implements a binary heap where parent nodes are smaller than children.
+
+MaxHeap.java: Implements a binary heap where parent nodes are larger than children.
+
+PriorityQueueUsingHeap.java: A priority queue that uses a min-heap as backend storage. Supports insertion and polling the highest priority element.
+
