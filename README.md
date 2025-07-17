@@ -56,9 +56,9 @@ Each `.java` file:
 -AVLTree.java: Implements a self-balancing Binary Search Tree using AVL rotations (left, right, LR, RL). Supports insertion, height tracking, and in-order traversal.
 
 ### **`heaps/`**
-MinHeap.java: Implements a binary heap where parent nodes are smaller than children.
+ - `MinHeap`: Implements a binary heap where parent nodes are smaller than children.
 
-MaxHeap.java: Implements a binary heap where parent nodes are larger than children.
+ - `MaxHeap` Implements a binary heap where parent nodes are larger than children.
 
-PriorityQueueUsingHeap.java: A priority queue that uses a min-heap as backend storage. Supports insertion and polling the highest priority element.
+ - `PriorityQueueUsingHeap`: A priority queue that uses a min-heap as backend storage. Supports insertion and polling the highest priority element.
 
