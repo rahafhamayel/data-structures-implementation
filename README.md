@@ -1,6 +1,6 @@
 # data-structures-implementation
 Implementations of basic data structures using java
-📅 Day 1 + Day 2 + Day 3  – Completed Structures
+📅 Day 1 + Day 2 + Day 3 + Day4 +Day5 – Completed Structures
 
 ✅ Implemented and tested:
 
@@ -19,7 +19,9 @@ Implementations of basic data structures using java
 - [x] Min Heap
 - [x] Max Heap
 - [x] Priority Queue using Heap
-
+- [x] Trie  
+- [x] Union-Find (Disjoint Set)  
+- [x] Graph Traversal (BFS, DFS)
 
 All files include a `main()` method for testing and are organized into appropriate folders.
 
@@ -61,4 +63,21 @@ Each `.java` file:
  - `MaxHeap` Implements a binary heap where parent nodes are larger than children.
 
  - `PriorityQueueUsingHeap`: A priority queue that uses a min-heap as backend storage. Supports insertion and polling the highest priority element.
+ ### **`trie/:`**
+insert(String word)
+search(String word)
+startsWith(String prefix)
+Useful for autocomplete, spell checking, and dictionary implementations.
+Time complexity: O(n), where n is the length of the word or prefix.
+ ### **`disjointset/:`**
+find(x) - finds the root of element x (with path compression)
+union(x, y) - merges two sets (with union by rank)
+connected(x, y) - checks if x and y are in the same set
+Used in graph algorithms like cycle detection and Kruskal's MST.
+Time complexity: Almost O(1) (Inverse Ackermann function)
 
+ ### **`graph/:`**
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Useful in network analysis, pathfinding, and graph exploration.
+Time complexity: O(V + E), where V = vertices, E = edges
