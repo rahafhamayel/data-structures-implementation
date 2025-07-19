@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9d36fc7-19f5-417e-b5e3-1750c24ce142" name="Changes" comment="day1" />
+    <list default="true" id="e9d36fc7-19f5-417e-b5e3-1750c24ce142" name="Changes" comment="day1">
+      <change afterPath="$PROJECT_DIR$/Day5/trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +72,7 @@
       <updated>1752506049080</updated>
       <workItem from="1752506050585" duration="1978000" />
       <workItem from="1752587587340" duration="610000" />
+      <workItem from="1752924767292" duration="1454000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <option name="closed" value="true" />
